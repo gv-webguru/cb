@@ -1,0 +1,72 @@
+# Specific Directories#
+#######################
+20150501/
+fonts/
+images/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+#Image and media Files#
+#############
+*.jpg
+*.png
+*.gif
+*.mov
+*.swf
+*.mp4
+*.m4v
+*.mp3
+*.avi
+*.aiff
+*.wav
+*.svg
+*.eps
+*.pdf
+
+#Project and Document Files#
+###############
+*.psd
+*.ai
+*.idd
+*.docx
+*.doc
+*.xls
+*.xlsx
+
+

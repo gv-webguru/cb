@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background-color:#f8f8f8;
+}
+
+.container{
+	background-color:#fff;
+	box-shadow:0 0 15px #848484;
+}
+
+p, h1, h2, h3, h4, h5, h6, dt, dd, li{
+	margin:0;
+	line-height:1em;
+}
+
+a:link{
+	color:#a30234;
+}
+	a:hover, a:active, a:visited{
+		color:#B32752;
+	}
+	
+
+#prof-head{
+	margin-bottom:32px;
+}
+
+#prof-navContainer{
+	padding-top:24px;
+}
+
+#prof-nav li{
+	margin-left:32px;
+}
+
+	#prof-nav li.active a{
+		background-color:#a30234;
+	}
+
+#sidebar-left{
+	padding-right:0;
+	border-right: 1px #888 solid;
+}
+
+#items-of-note{
+	width:90%;
+}
+
+#main-content{
+	/*border-left:1px #888 solid;*/
+}
+
+#prof-atty-port img{
+	width:100%;
+}
+
+#office-contact{
+	border-bottom:1px #888 solid;
+	padding-bottom:32px;
+}
+
+#office-contact p{
+	margin-bottom:4px;
+}
+
+#prof-fax{
+	margin-bottom:32px !important;
+}
+
+#prof-office, #prof-pa-head, #prof-ed-head, #prof-adm-head, #prof-affilRec-head, #prof-description, #prof-representativeMatters, #prof-articlesPubs{
+	color:#a30234;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+
+#prof-description, #prof-representativeMatters, #prof-articlesPubs{
+	font-size:1.5em;
+}
+
+#prof-education, #prof-admissions, #prof-affiliations, #prof-practice-areas{
+	margin-top:32px;
+}
+
+#prof-education ul, #prof-admissions ul, #prof-affiliations ul, #prof-practice-areas ul{
+	padding-left:0px;
+}
+
+#prof-education li, #prof-admissions li, #prof-affiliations li, #prof-practice-areas li{
+	list-style:none;
+	margin-bottom:8px;
+}
+#prof-nameRole{
+	margin-bottom:32px;
+}
+
+#prof-fullName, #prof-role{
+	color:#a30234;
+}
+#prof-fullName{
+	font-size:2em;
+}
+
+#prof-officeAddy{
+	
+	margin-bottom:20px;
+}
+
+#prof-officeAddy p{
+	line-height:1.25em;
+}
+
+#prof-officeAddy-fax{
+	margin-bottom:16px;
+}
+
+.fa{
+	font-size:4em;
+}
+
+#prof-desc p, #prof-repMatters p, #prof-artPubs p{
+	line-height:1.25em;
+}

@@ -1,0 +1,1006 @@
+@charset "UTF-8";
+/* CSS Document */
+/*** This file is for styling objects not already declared by bootstrap ***/
+
+/*Typography*/
+body{
+	font-size:18px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:#a30234;
+}
+
+	.subcat-desc h4, #atty-subcat h4, .subcat h4{
+		font-weight:bold;
+		font-size:1.4em;
+	}
+	
+hr{
+	border-bottom:2px solid #a30234;
+}
+
+.att-name, .practice-brief h3{
+	margin-top:0;
+}
+
+.atty-role{
+	font-size:.5em;
+	font-style:italic;
+}
+
+#firm-content ul li{
+	list-style:none;
+}
+
+.no-disk{
+		list-style:none;
+	}
+	.no-disk ul{
+		list-style:disc;
+	}
+
+/*layout*/
+body{
+	/*background-color:#999;*/
+	font-family:"Century Gothic", sans-serif;
+	padding-top:66px;
+}
+
+.jumbotron{
+	/*background-color:#a30234;*/
+}
+
+/*#nav-links li{
+	list-style:none;
+	display:inline-block;
+	margin-right:15px;
+}*/
+
+#nav-section{
+	box-shadow:0 5px 15px rgba(0,0,0,.25);
+}
+
+#nav-section div.container{
+	background-color:inherit;
+}
+
+	.nav li a {
+		padding-left:10px;
+		padding-right:10px;
+	}
+#cb-navbar-collapse{
+	padding-right:15px;
+}
+#banner{
+	background-color:#f01b5d;
+}
+
+#content-row{
+	max-width: 1124px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#firm-content, #attorneys-content, #practiceAreas-content, #international-content, #news-content, #contact-content, #footer-content, #moving-container, #scam-container{
+	max-width:1140px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:1.5em;
+}
+
+#the-firm{
+	background-image:url(../images/binding_light_2X.png);
+}
+
+	#memberships{
+		margin-bottom:1em;
+	}
+
+	.subblock-heading{
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:1em;
+		padding-left:1em;
+		padding-right:1em;
+		border-bottom:1px solid #a30234;
+		width:25%;
+		text-align:center;
+	}
+	
+	.subblock-content{
+		text-align:center;
+	}
+	
+	ul#membership-list{
+		display:inline-block;
+		margin-left:auto;
+		margin-right:auto;
+		padding:0;
+		width:100%;
+		list-style-position:outside;
+	}
+	
+	ul#membership-list li{
+		width:25%;
+		text-align:left;
+		font-size:.7em;
+		padding:1em;
+		list-style:none;
+		display:inline-block;
+		margin-bottom:1em;
+		margin-left:1em;
+		margin-right:1em;
+		background:rgba(255,255,255,.25);
+		border-radius:.5em;
+		border:2px solid rgba(192,192,192,1);
+		box-shadow:5px 5px 15px rgba(0,0,0,.75);
+	}
+	#membership-list img{
+		width:100%;
+		margin-bottom:.5em;
+	}
+	
+	#membership-list li a:link, #membership-list li a:active, #membership-list li a:visited{
+		color:#000;
+		text-decoration:none;
+	}
+	
+	#membership-list li a:hover{
+		text-decoration:none;
+	}
+	
+	
+	#membership-list li:hover{
+		background-color:rgba(255,255,255,.5);
+		border: 2px solid rgba(160,160,160,1);
+		cursor:pointer;
+	}
+
+.about-list ul{
+	margin-bottom:0;
+}
+
+#attorneys{
+	background-image:url(../images/mooning_2X.png);
+}
+	#attorney-list ul li{
+		list-style:none;
+	}
+
+	#attorney-detail{
+		overflow:visible;
+	}
+
+#practice-areas{
+	background-image:url(../images/noise_pattern_with_crosslines.png);
+}
+
+#international{
+	background-image:url(../images/brickwall.png);
+}
+
+#news-events{
+	background-image:url(../images/cream_pixels_2X.png);
+}
+
+
+
+#contact{
+	background-image:url(../images/fresh_snow.png);
+}
+
+#footer{
+	background: linear-gradient(#707070,#505050);
+	color:#fff;
+	min-height:200px;
+}
+	#footer h4{
+		color:#fff;
+	}
+	#footer #sm-links{
+		color:#fff;
+	}
+	#footer #legal{
+	}
+	
+
+.container{
+	/*background-color:#dedede;*/
+}
+
+.prof-row{
+	/*min-height:125px;*/
+	/*border-bottom:1px #bbb dotted;*/
+	margin-left:0;
+	margin-right:0;
+}
+
+.attorney-icon{
+	background-image:url(../images/attyport/sprites/attorneySprite-64.jpg);
+	width:64px;
+	height:64px;
+	border-radius:50%;
+	margin-right:5%;
+	display:inline-block;
+}
+.attorney-icon:hover{
+	cursor:pointer;
+	box-shadow:#666 0 0 5px;
+	}
+	#bapplegarth-icon{
+		background-position:left top;
+	}
+	#bapplegarth-icon:hover{
+		background-position:-64px top;
+	}
+	
+	#narnett-icon{
+		background-position:-128px top;
+	}
+	#narnett-icon:hover{
+		background-position:-192px top;
+	}
+	
+	#dbarth-icon{
+		background-position:-256px top;
+	}
+	#dbarth-icon:hover{
+		background-position:-320px top;
+	}
+	
+	#sbell-icon{
+		background-position:-384px top;
+	}
+	#sbell-icon:hover{
+		background-position:-448px top;
+	}
+	
+	#mbrumm-icon{
+		background-position:-3328px top;
+	}
+	#mbrumm-icon:hover{
+		background-position:-3392px top;
+	}
+	
+	#jburns-icon{
+		background-position:-512px top;
+	}
+	#jburns-icon:hover{
+		background-position:-576px top;
+	}
+	
+	#jcarroll-icon{
+		background-position:-640px top;
+	}
+	#jcarroll-icon:hover{
+		background-position:-704px top;
+	}
+	
+    #lcaylor-icon{
+        background-position: -3600px top;
+    }
+
+    #lcaylor-icon:hover{
+        background-position: -3664px top;
+    }
+
+	#ccornett-icon{
+		background-position:-768px top;
+	}
+	#ccornett-icon:hover{
+		background-position:-832px top;
+	}
+	
+	#lbcors-icon{
+		background-position:-896px top;
+	}
+	#lbcors-icon:hover{
+		background-position:-960px top;
+	}
+	
+	#fdiedrichs-icon{
+		background-position:-1024px top;
+	}
+	#fdiedrichs-icon:hover{
+		background-position:-1088px top;
+	}
+	
+	#redmiston-icon{
+		background-position:-1152px top;
+	}
+	#redmiston-icon:hover{
+		background-position:-1216px top;
+	}
+	
+	#kfeazell-icon{
+		background-position:-1280px top;
+	}
+	#kfeazell-icon:hover{
+		background-position:-1344px top;
+	}
+	
+	#mgay-icon{
+		background-position:-1408px top;
+	}
+	#mgay-icon:hover{
+		background-position:-1472px top;
+	}
+	
+	#jharmon-icon{
+		background-position:-1536px top;
+	}
+	#jharmon-icon:hover{
+		background-position:-1600px top;
+	}
+	
+	#jharrison-icon{
+		background-position:-1664px top;
+	}
+	#jharrison-icon:hover{
+		background-position:-1728px top;
+	}
+	
+	#rhassman-icon{
+		background-position:-1792px top;
+	}
+	#rhassman-icon:hover{
+		background-position:-1856px top;
+	}
+	
+	#rhollingsworth-icon{
+		background-position:-1920px top;
+	}
+	#rhollingsworth-icon:hover{
+		background-position:-1984px top;
+	}
+	
+	#sholmes-icon{
+		background-position:-2048px top;
+	}
+	#sholmes-icon:hover{
+		background-position:-2112px top;
+	}
+
+    #ahuenefeld-icon{
+		background-position:-3456px top;
+	}
+	#ahuenefeld-icon:hover{
+		background-position:-3520px top;
+	}
+	
+	#jkezele-icon{
+		background-position:-2176px top;
+	}
+	#jkezele-icon:hover{
+		background-position:-2240px top;
+	}
+	
+	#tkilcoyne-icon{
+		background-position:-2304px top;
+	}
+	#tkilcoyne-icon:hover{
+		background-position:-2368px top;
+	}
+	
+	#ckuhnhein-icon{
+		background-position:-2432px top;
+	}
+	#ckuhnhein-icon:hover{
+		background-position:-2496px top;
+	}
+	
+	#mmullee-icon{
+		background-position:-2560px top;
+	}
+	#mmullee-icon:hover{
+		background-position:-2624px top;
+	}
+	
+	#dschmitt-icon{
+		background-position:-2688px top;
+	}
+	#dschmitt-icon:hover{
+		background-position:-2752px top;
+	}
+	
+	#dtodd-icon{
+		background-position:-2816px top;
+	}
+	#dtodd-icon:hover{
+		background-position:-2880px top;
+	}
+	
+	
+	#swolf-icon{
+		background-position:-2944px top;
+	}
+	#swolf-icon:hover{
+		background-position:-3008px top;
+	}
+	
+	#dzerbe-icon{
+		background-position:-3072px top;
+	}
+	#dzerbe-icon:hover{
+		background-position:-3136px top;
+	}
+	
+	#hzimmer-icon{
+		background-position:-3200px top;
+	}
+	#hzimmer-icon:hover{
+		background-position:-3264px top;
+	}
+
+.profile-space{
+	width:100%;
+	display:none;
+	margin-bottom: 10%;
+	border-bottom: 1px solid #A30234;
+	border-bottom-right-radius: 10px;
+	
+}
+	.desc-exc{
+		/*border-bottom:#57011B 1px solid;*/
+		border-right:#a30234 1px solid;
+		padding:0;
+		padding-right:1em;
+		padding-bottom:1em;
+		border-bottom-right-radius:10px;
+	}
+	.full-link{
+		background-color:#a30234;
+		color:#fff;
+		padding:5px 15px;
+		border-top-left-radius:10px;
+		border-bottom-right-radius:10px;
+		position:absolute;
+		bottom:0;
+		right:0;
+	}
+		.full-link:hover{
+			cursor:pointer;
+			background-color:#A30234;
+		}
+	/*.profile-space#attorney-default{
+		display:block;
+	}*/
+	
+	.atty-practices{
+		width:67%;
+		margin-bottom:1.25em;
+		/*border-top:.5em ridge #57011b;
+		padding-top:15px;
+		padding:0;*/
+	}
+		div.att-pa-list-item{
+			margin-bottom:15px;
+			display:inline-block;
+			border-radius:50%;
+		}
+.badges{
+	width:100%;
+	padding:10px 0;
+	}
+.badge{
+	margin: 0 5px;
+}
+
+#main-practiceAreas{
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.main-practiceArea{
+	font-size:8em;
+}
+	.main-practiceArea p{
+		font-size:.15em;
+		color:#000;
+		margin-top:7em;
+		margin-bottom:2em;
+	}
+
+.subcat{
+	display:none;
+}
+	.subcat-desc{
+		display:none;
+	}
+.pa-icon{
+	color:#fff;	
+}
+
+/*######### Full Profile Styles ########################*/
+
+a:link{
+	color:#a30234;
+}
+	a:hover, a:active, a:visited{
+		color:#B32752;
+	}
+	
+
+#prof-head{
+	margin-bottom:32px;
+}
+
+#prof-navContainer{
+	padding-top:24px;
+}
+
+#prof-nav li{
+	margin-left:32px;
+}
+
+	#prof-nav li.active a{
+		background-color:#a30234;
+	}
+
+#sidebar-left{
+	padding-right:0;
+	border-right: 1px #888 solid;
+}
+
+#items-of-note{
+	width:90%;
+}
+
+#main-content{
+	/*border-left:1px #888 solid;*/
+}
+
+#prof-atty-port img{
+	width:100%;
+}
+
+#office-contact{
+	border-bottom:1px #888 solid;
+	padding-bottom:32px;
+}
+
+#office-contact p{
+	margin-bottom:4px;
+}
+
+#prof-fax{
+	margin-bottom:32px !important;
+}
+
+#prof-office, #prof-pa-head, #prof-ed-head, #prof-adm-head, #prof-affilRec-head, #prof-honors-head, #prof-description, #prof-representativeMatters, #prof-articlesPubs{
+	color:#a30234;
+	font-weight:bold;
+	margin-bottom:4px;
+}
+
+
+
+#prof-office, #prof-addy, #prof-cityZip, #prof-officePhone, #prof-fax, #prof-officeEmail, #prof-hostname{
+	line-height:1em;
+}
+
+#prof-pa-list li, #prof-edlist li, #prof-adm-list li, #prof-affilRec-list li, #prof-honors-list li{
+	line-height:1em;
+}
+
+#prof-description, #prof-representativeMatters, #prof-articlesPubs{
+	font-size:1.5em;
+}
+
+#prof-education, #prof-admissions, #prof-affiliations, #prof-practice-areas, #prof-honors{
+	margin-top:32px;
+}
+
+#prof-education ul, #prof-admissions ul, #prof-affiliations ul, #prof-practice-areas ul, #prof-honors ul{
+	padding-left:0px;
+}
+
+#prof-education li, #prof-admissions li, #prof-affiliations li, #prof-practice-areas li, #prof-honors li{
+	list-style:none;
+	margin-bottom:8px;
+}
+#prof-nameRole{
+	margin-bottom:32px;
+}
+
+#prof-nameRole p{
+	margin-bottom:0;
+	line-height:1em;
+}
+
+#prof-fullName, #prof-role{
+	color:#a30234;
+	
+}
+	
+#prof-fullName{
+	font-size:2em;
+}
+
+#prof-officeAddy{
+	
+	margin-bottom:20px;
+}
+
+#prof-officeAddy p{
+	line-height:1.25em;
+	margin-bottom:0;
+}
+
+p#prof-officeAddy-fax{
+	margin-bottom:16px;
+}
+
+.fa.li-link{
+	font-size:4em;
+}
+
+#prof-desc, #prof-repMatters, #prof-artPubs{
+	margin-top:1em;
+}
+
+#prof-desc p, #prof-repMatters p, #prof-artPubs p{
+	line-height:1.25em;
+}
+
+/*######### Font Awesome Customizations################*/
+
+.fa{
+	/*margin-left:.5em;
+	margin-top:.5em;
+	text-shadow:-.05em -.05em 0 #666;*/ 
+}
+
+.fa-circle{
+	color:#a30234;
+}
+
+.fa-stack-1x{
+		color:#fff;
+		text-shadow:0 0 5px #630120;
+	}
+	.fa-underIcon{
+		font-size:1.25em;
+	}
+	.fa-overIcon{
+		font-size:.75em;
+	}
+
+.fa-simplybuilt{
+	/*margin-left:.45em;*/
+}
+
+.fa-home{
+	/*margin-left:.55em;*/
+}
+
+.fa-child{
+	/*margin-left:.65em;*/
+}
+.fa-copyright{
+	/*margin-left:.6em;*/
+}
+.fa-globe{
+	/*margin-left:.6em;*/
+}
+.fa-wrench{
+	/*margin-left:.6em;*/
+}
+.fa-building{
+	/*margin-left:.6em;*/
+}
+
+.fa-wheelchair{
+	/*margin-left:.6em;*/
+}
+
+.fa-certificate{
+	font-size:1.5em;
+}
+
+#practice-list ul{
+	padding-left:0;
+	font-size:.9em;
+}
+
+#practice-list ul li{
+	list-style:none;
+	margin-bottom:.5em;
+	border:#ccc 1px solid;
+	padding:.25em;
+	border-radius:.5em;
+	background-color:rgba(128, 128, 128, .25);
+}
+	#practice-list ul li:hover, .practice-attorney:hover, .att-pa-list-item:hover{
+		font-weight:bold;
+		/*text-decoration:underline;*/
+		cursor:pointer;
+		box-shadow:0 0 5px #555;
+	}
+.practice-brief{
+	display:none;
+}
+	/*#pa-env{
+		display:block;
+	}*/
+
+.practice-attorney{
+	display:none;
+	padding-top:.2em;
+	padding-left:.2em;
+	border:#ccc 1px solid;
+	border-radius:.5em;
+	margin-bottom:.5em;
+	background-color:rgba(128, 128, 128, .25);
+	font-size:1.2em;
+}
+
+#globe-map{
+	width:100%;
+}
+
+#attorneys-detail{
+	overflow:hidden;
+}
+
+#attorney-section{
+	width:200%;
+	/*background-color:#8f8f8f;*/
+}
+
+#full-prof-container{
+	/*width:50%;
+	background-color:#000;*/
+	display:none;
+	background-color: #fff;
+	margin-bottom: 1em;
+    border-radius: 1em;
+    box-shadow: .5em .5em 1em rgba(0,0,0,0.25);
+}
+
+#attorneys-container{
+	margin-right:15px;
+}
+
+/*########### International Section Styles ############*/
+#international{
+	background-color: rgba(192,192,192,1);
+}
+
+.intl-rows{
+	margin-bottom:1em;
+	color:#000;
+	/*text-shadow:1px 1px 3px #000;*/
+}
+
+/*#intl-row-b{
+	background-color:rgba(64,64,64,.75);
+	border-radius:1em;
+	padding:2%;
+}*/
+
+#international-detail{
+	background-image:url(../images/world.png);
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+#intl-callout{
+	background-color: rgba(64,64,64,.75);
+    width: 100%;
+    min-height: 50px;
+    margin-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #fff;
+    border-radius: 1em;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px #000;
+    /*box-shadow: 0 0 10px #000;*/
+}
+
+#intl-msiVideo{
+	background-color:rgba(0,0,0,.75);
+	padding:1em;
+	border-radius:1em;
+}
+	#intl-msiVideo iframe{
+		border-radius:.75em;	
+	}
+
+/*########### Special Override Styles #################*/
+.container-fluid{
+	padding:0;
+}
+
+.navbar-brand#cb-logo{
+	height:66px;
+}
+.navbar-nav#nav-links{
+	margin-top:10px;
+}
+
+#back-to-att{
+	margin-bottom:1em;
+}
+
+a#back-to-att{
+		background-color:#a30234;
+		color:#fff;
+		border-color:transparent;
+	}
+a#back-to-att:link{
+		background-color:#a30234;
+	}
+a#back-to-att:hover{
+		background-color:#BA3C63;
+	}
+a#back-to-att:active{
+		background-color:#89022c;
+	}
+	
+.jumbotron, .container-fluid .jumbotron{
+	padding:0;
+	margin:0;
+}
+
+#inside-jumbo{
+	margin:0;
+	padding:0;
+}
+
+#jumbotron-image{
+	margin:0;
+	padding:0;
+}
+
+#jumbotron-image img{
+	width:100%;
+	margin:0;
+}
+
+#disclaimerModal{
+	width:96%;
+}
+#footer-content a{
+	color:#fff;
+}
+
+#sm-links a{
+	color:#fff;
+}
+	#sm-links a:link{}
+	#sm-links a:visited{color:#fff;}
+	#sm-links a:hover{color:#e1e1e1;}
+	#sm-links a:active{color:#e1e1e1;}
+	
+
+.cb-sm{
+	font-size:2em;
+	margin-right:.25em;
+	text-shadow:.05em .05em .1em #333;
+}
+
+i:hover{
+	cursor:pointer;
+}
+
+/*##########We're Moving Alert Styles*/
+
+.alert-warning{
+	background-color:rgba(252, 248, 227,.5);
+}
+
+.close{
+	color:#a30234;
+	opacity: .75;
+	font-size: 2em;
+}
+
+#moving-container{
+	font-size: .8em;
+	color: #a30234;
+	margin-top:1em;
+	border-radius: 1em;
+	border:#a30234 .25em dashed;
+	box-shadow: 0 0 15px rgba(0,0,0,.75);
+}
+
+#hey{
+	font-size: 4em;
+	float:left;
+}
+
+#moving-container p{
+	display:inline-block;
+	margin-left:15px;
+}
+
+#moving-container #attn{
+	font-size: 2.5em;
+}
+
+#moving-container #move-message, #moving-container #all-else{
+	font-style: italic;
+}
+
+#moving-container #new-address{
+	margin-left:25px;
+}
+
+
+/*######### Map Styles ##########*/
+.map{
+	width:100%;
+	height:500px;
+	border:dotted 1px #ccc;
+}
+
+/*##########Warning Block Styles############3*/
+#scam-container{
+    width:95%;
+    margin:auto;
+    margin-top:25px;
+    padding:1em;
+    border-radius:1em;
+    border:2px dashed rgba(128,0,0,1);
+	box-shadow: 0 0 15px rgba(0,0,0,.75);
+}
+#scam-icon{
+    width:10%;
+    float:left;
+    font-size:3em;
+    color:Gold;
+    text-shadow:1px 1px 0 rgba(128,0,0,1),-1px 1px 0 rgba(128,0,0,1),1px -1px 0 rgba(128,0,0,1),-1px -1px 0 rgba(128,0,0,1);
+}
+#scam-copy{
+    width:85%;
+    float:left;
+    font-size:.75em;
+}
+
+.attn, .ul{
+    text-decoration: underline;
+}
+.attn{
+    font-weight: bold;
+}
+
+/*######Career Center Style Rules########*/
+.job-opp{
+	width:95%;
+	margin-left: 5%;
+}
+
+h4.job-title{
+	font-weight:bold;
+	text-decoration: underline;
+}
+h4.job-title:hover{
+	cursor: pointer;
+	color:grey;
+}
+
+.job-desc-wrapper{
+	/*display: none;*/
+	padding:.5em;
+	background-color:rgba(0,0,0,.05);
+	border: dotted thin rgba(128,0,0,1);
+	border-radius:.5em;
+}
+
+.job-desc{
+	
+}
+
+@media screen and (max-width: 959px){
+}
+
+@media screen and (max-width:639px){
+}
+
+/*print*/
